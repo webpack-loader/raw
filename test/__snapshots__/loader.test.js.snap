@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Defaults 1`] = `"export default \\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\\\\n\\""`;
+
+exports[`Loader Escape \\u2028 1`] = `"export default \\"\\\\\\\\u2028\\\\\\\\u2028\\\\n\\""`;
+
+exports[`Loader Escape \\u2029 1`] = `"export default \\"\\\\\\\\u2029\\\\\\\\u2029\\\\n\\""`;

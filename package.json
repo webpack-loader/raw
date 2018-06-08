@@ -1,0 +1,33 @@
+{
+  "name": "@webpack-loader/raw",
+  "version": "0.0.1",
+  "description": "Raw Loader",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "lint": "standard --env jest",
+    "test": "jest --verbose --coverage",
+    "clean": "del-cli coverage",
+    "release": "commitlint --to 'HEAD' && standard-version"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.0",
+    "@webpack-utilities/test": "^1.0.0-alpha.0",
+    "del-cli": "^1.0.0",
+    "jest": "^23.0.0",
+    "standard-version": "^4.0.0",
+    "webpack": "^4.0.0"
+  },
+  "bugs": "https://github.com/webpack-loader/raw/issues",
+  "homepage": "https://github.com/webpack-loader/raw",
+  "repository": "https://github.com/webpack-loader/raw.git",
+  "author": "Michael Ciniawsky (@michael-ciniawsky), <michael.ciniawsky@gmail.com>",
+  "license": "MIT"
+}
